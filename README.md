@@ -32,7 +32,22 @@ This is a simple **Link Shortener** built using **Java** as part of a programmin
 git clone https://github.com/yourusername/java-link-shortener.git
 cd java-link-shortener
 
+javac LinkShortener.java
+java LinkShortener
 
+
+output:
+--- Link Shortener ---
+1. Shorten URL
+2. Expand URL
+3. Exit
+Choose: 1
+Enter long URL: https://example.com/tutorial/java
+Short URL: http://short.ly/aaaaan
+
+Choose: 2
+Enter short URL: http://short.ly/aaaaan
+Original URL: https://example.com/tutorial/java
 
 
 
